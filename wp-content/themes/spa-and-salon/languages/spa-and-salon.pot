@@ -1,0 +1,768 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2018-03-02 07:15+0000\n"
+"POT-Revision-Date: Mon Mar 14 2016 16:17:37 GMT+0545 (Nepal Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:14
+msgid "404"
+msgstr ""
+
+#: 404.php:15
+msgid "Sorry, that page can't be found!"
+msgstr ""
+
+#: 404.php:16
+msgid "Try going back to our "
+msgstr ""
+
+#: 404.php:16
+msgid "homepage"
+msgstr ""
+
+#: 404.php:16
+msgid " where we'll point you in the right direction."
+msgstr ""
+
+#: comments.php:29
+msgid "Comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:47
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:48
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:73
+msgid "Required fields are marked"
+msgstr ""
+
+#: comments.php:78
+msgid "Name*"
+msgstr ""
+
+#: comments.php:82
+msgid "Email*"
+msgstr ""
+
+#: comments.php:86
+msgid "Website"
+msgstr ""
+
+#: comments.php:96
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:97
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:98
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:99
+msgid "POST COMMENT"
+msgstr ""
+
+#: comments.php:103
+msgid "Comment"
+msgstr ""
+
+#: comments.php:108
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:114
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:121
+msgid "Your email address will not be published. "
+msgstr ""
+
+#: footer.php:21 inc/customizer.php:757
+msgid "Follow Us On"
+msgstr ""
+
+#: functions.php:54
+msgid "Primary"
+msgstr ""
+
+#: functions.php:153
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:162
+msgid "Footer One"
+msgstr ""
+
+#: functions.php:172
+msgid "Footer Two"
+msgstr ""
+
+#: functions.php:182
+msgid "Footer Three"
+msgstr ""
+
+#: header.php:31 inc/customizer.php:912
+msgid "01-234566789"
+msgstr ""
+
+#: search.php:18
+msgid "Search Result"
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: inc/customizer.php:19
+msgid "Static Front Page"
+msgstr ""
+
+#: inc/customizer.php:25
+msgid "Choose Post"
+msgstr ""
+
+#: inc/customizer.php:41
+msgid "Choose Category"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Default Settings"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Default section provided by wordpress customizer."
+msgstr ""
+
+#: inc/customizer.php:76
+msgid "Home Page Settings"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "Customize Home Page Settings"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Enable Banner Section"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Select Banner Post"
+msgstr ""
+
+#: inc/customizer.php:132 inc/extra.php:322
+msgid "Get Started"
+msgstr ""
+
+#: inc/customizer.php:140 inc/customizer.php:350
+#: inc/widget-featured-post.php:111
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Featured Section"
+msgstr ""
+
+#: inc/customizer.php:169
+msgid "Enable Featured Posts Section"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Select Featured Post One"
+msgstr ""
+
+#: inc/customizer.php:199 inc/extra.php:365
+msgid "money"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Favicon Name For Post One"
+msgstr ""
+
+#: inc/customizer.php:225
+msgid "Select Featured Post Two"
+msgstr ""
+
+#: inc/customizer.php:237 inc/extra.php:366
+msgid "thumbs-up"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Favicon Name For Post Two"
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Select Featured Post Three"
+msgstr ""
+
+#: inc/customizer.php:274 inc/extra.php:367
+msgid "shopping-cart"
+msgstr ""
+
+#: inc/customizer.php:282
+msgid "Favicon Name For Post Three"
+msgstr ""
+
+#: inc/customizer.php:295
+msgid "About Section"
+msgstr ""
+
+#: inc/customizer.php:313
+msgid "Enable About Section"
+msgstr ""
+
+#: inc/customizer.php:331
+msgid "Select About Section Post"
+msgstr ""
+
+#: inc/customizer.php:342 inc/widget-featured-post.php:96
+#: inc/widget-featured-post.php:136 sections/section-about.php:9
+#: template-parts/content.php:54
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer.php:362
+msgid "Service Section"
+msgstr ""
+
+#: inc/customizer.php:380
+msgid "Enable Service Section"
+msgstr ""
+
+#: inc/customizer.php:390 sections/section-service.php:8
+msgid "Our Services"
+msgstr ""
+
+#: inc/customizer.php:398
+msgid "Service Section Title"
+msgstr ""
+
+#: inc/customizer.php:416
+msgid "Service Section Content"
+msgstr ""
+
+#: inc/customizer.php:433
+msgid "Select Service Post One"
+msgstr ""
+
+#: inc/customizer.php:452
+msgid "Select Service Post Two"
+msgstr ""
+
+#: inc/customizer.php:471
+msgid "Select Service Post Three"
+msgstr ""
+
+#: inc/customizer.php:490
+msgid "Select Service Post Four"
+msgstr ""
+
+#: inc/customizer.php:509
+msgid "Select Service Post Five"
+msgstr ""
+
+#: inc/customizer.php:528
+msgid "Select Service Post Six"
+msgstr ""
+
+#: inc/customizer.php:542
+msgid "Testimonial Section"
+msgstr ""
+
+#: inc/customizer.php:560
+msgid "Enable Testimonial Section"
+msgstr ""
+
+#: inc/customizer.php:570 sections/section-testimonial.php:8
+msgid "Client Testimonials"
+msgstr ""
+
+#: inc/customizer.php:578
+msgid "Testimonial Section Title"
+msgstr ""
+
+#: inc/customizer.php:596
+msgid "Testimonial Section Content"
+msgstr ""
+
+#: inc/customizer.php:614
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer.php:628
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: inc/customizer.php:646
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer.php:664
+msgid "Show current"
+msgstr ""
+
+#: inc/customizer.php:674 inc/extra.php:87
+msgid "Home"
+msgstr ""
+
+#: inc/customizer.php:682
+msgid "Breadcrumb Home Text"
+msgstr ""
+
+#: inc/customizer.php:692 inc/extra.php:86
+msgid ">"
+msgstr ""
+
+#: inc/customizer.php:700
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: inc/customizer.php:711
+msgid "Social Settings"
+msgstr ""
+
+#: inc/customizer.php:729
+msgid "Enable Social Links on Header"
+msgstr ""
+
+#: inc/customizer.php:747
+msgid "Enable Social Links On Footer"
+msgstr ""
+
+#: inc/customizer.php:765
+msgid "Social Info In Footer"
+msgstr ""
+
+#: inc/customizer.php:784
+msgid "Facebook Page Url"
+msgstr ""
+
+#: inc/customizer.php:801
+msgid "Twitter Page Url"
+msgstr ""
+
+#: inc/customizer.php:818
+msgid "Linkin Page Url"
+msgstr ""
+
+#: inc/customizer.php:836
+msgid "Rss Feed Url"
+msgstr ""
+
+#: inc/customizer.php:854
+msgid "Google Plus Url"
+msgstr ""
+
+#: inc/customizer.php:872
+msgid "Pinterest Url"
+msgstr ""
+
+#: inc/customizer.php:889
+msgid "Instagram Url"
+msgstr ""
+
+#: inc/customizer.php:901
+msgid "Header Section Settings"
+msgstr ""
+
+#: inc/customizer.php:920
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer.php:930
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:947
+msgid "Copyright Info"
+msgstr ""
+
+#: inc/extra.php:110
+msgid "Search Results for \""
+msgstr ""
+
+#: inc/extra.php:110
+msgid "\""
+msgstr ""
+
+#: inc/extra.php:113 inc/extra.php:114 inc/extra.php:118 inc/extra.php:118
+#: inc/extra.php:122
+msgid "Y"
+msgstr ""
+
+#: inc/extra.php:114
+msgid "m"
+msgstr ""
+
+#: inc/extra.php:114 inc/extra.php:119
+msgid "F"
+msgstr ""
+
+#: inc/extra.php:115
+msgid "d"
+msgstr ""
+
+#: inc/extra.php:184
+msgid "404 Error - Page not Found"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/extra.php:330 inc/template-tags.php:44 inc/template-tags.php:123
+msgid ", "
+msgstr ""
+
+#: inc/extra.php:446
+msgid "&copy; "
+msgstr ""
+
+#: inc/extra.php:447
+msgid ". All Rights Reserved."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: inc/extra.php:450
+#, php-format
+msgid "%s"
+msgstr ""
+
+#. URI of the theme
+#: inc/extra.php:450
+msgid "http://raratheme.com/wordpress-themes/spa-and-salon/"
+msgstr ""
+
+#: inc/extra.php:450
+msgid "Spa And Salon By: Rara Theme. "
+msgstr ""
+
+#: inc/extra.php:451
+#, php-format
+msgid "Powered by: %s"
+msgstr ""
+
+#: inc/extra.php:451
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/extra.php:451
+msgid "WordPress"
+msgstr ""
+
+#: inc/info.php:11
+msgid "Information Links"
+msgstr ""
+
+#: inc/info.php:21
+msgid "Need help?"
+msgstr ""
+
+#: inc/info.php:22
+msgid "View demo"
+msgstr ""
+
+#: inc/info.php:22 inc/info.php:23 inc/info.php:24 inc/info.php:25
+#: inc/info.php:26 inc/info.php:27 inc/info.php:28
+msgid "here"
+msgstr ""
+
+#: inc/info.php:23
+msgid "View documentation"
+msgstr ""
+
+#: inc/info.php:24
+msgid "Download Zip"
+msgstr ""
+
+#: inc/info.php:25
+msgid "Theme info"
+msgstr ""
+
+#: inc/info.php:26
+msgid "Support ticket"
+msgstr ""
+
+#: inc/info.php:27
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/info.php:28
+msgid "More WordPress Themes"
+msgstr ""
+
+#: inc/info.php:32
+msgid "About Spa And Salon"
+msgstr ""
+
+#: inc/info.php:153
+msgid "Pro Available"
+msgstr ""
+
+#: inc/info.php:155
+msgid "VIEW PRO THEME"
+msgstr ""
+
+#. $id
+#: inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/metabox.php:23
+msgid "Right sidebar (default)"
+msgstr ""
+
+#: inc/metabox.php:28
+msgid "No sidebar"
+msgstr ""
+
+#: inc/metabox.php:40
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:40
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:40
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:40
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:46 inc/template-tags.php:125
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:62 template-parts/content-page.php:38
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. Base ID
+#: inc/widget-featured-post.php:26
+msgid "RARA: Featured Post"
+msgstr ""
+
+#: inc/widget-featured-post.php:27
+msgid "A Featured Post Widget"
+msgstr ""
+
+#: inc/widget-featured-post.php:84
+msgid "--Choose--"
+msgstr ""
+
+#: inc/widget-featured-post.php:101
+msgid "Posts"
+msgstr ""
+
+#: inc/widget-featured-post.php:117 inc/widget-popular-post.php:120
+#: inc/widget-recent-post.php:116
+msgid "Show Post Thumbnail"
+msgstr ""
+
+#. Base ID
+#: inc/widget-popular-post.php:26
+msgid "RARA: Popular Post"
+msgstr ""
+
+#: inc/widget-popular-post.php:27
+msgid "A Popular Post Widget"
+msgstr ""
+
+#: inc/widget-popular-post.php:109 inc/widget-recent-post.php:105
+#: inc/widget-social-links.php:94
+msgid "Title"
+msgstr ""
+
+#: inc/widget-popular-post.php:114 inc/widget-recent-post.php:110
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/widget-popular-post.php:125 inc/widget-recent-post.php:121
+msgid "Show Post Date"
+msgstr ""
+
+#. Base ID
+#: inc/widget-recent-post.php:26
+msgid "RARA: Recent Post"
+msgstr ""
+
+#: inc/widget-recent-post.php:27
+msgid "A Recent Post Widget"
+msgstr ""
+
+#. Base ID
+#: inc/widget-social-links.php:26
+msgid "RARA: Social Links"
+msgstr ""
+
+#: inc/widget-social-links.php:27
+msgid "A Social Links Widget"
+msgstr ""
+
+#: inc/widget-social-links.php:56 inc/widget-social-links.php:99
+msgid "Facebook"
+msgstr ""
+
+#: inc/widget-social-links.php:58 inc/widget-social-links.php:104
+msgid "Instagram"
+msgstr ""
+
+#: inc/widget-social-links.php:60 inc/widget-social-links.php:109
+msgid "Twitter"
+msgstr ""
+
+#: inc/widget-social-links.php:62 inc/widget-social-links.php:114
+msgid "Pinterest"
+msgstr ""
+
+#: inc/widget-social-links.php:64
+msgid "Linkedin"
+msgstr ""
+
+#: inc/widget-social-links.php:66 inc/widget-social-links.php:124
+msgid "YouTube"
+msgstr ""
+
+#: inc/widget-social-links.php:119
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/woocommerce-functions.php:37
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/woocommerce-functions.php:39
+msgid "Sidebar displaying only in woocommerce pages."
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:27 template-parts/content.php:44
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:37
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:53
+msgid "Contact Form 7"
+msgstr ""
+
+#. Name of the theme
+msgid "Spa and Salon"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Spa and Salon is an elegantly designed theme suitable for spa, salons, "
+"beauty, care, girly, hair, health, hospitality, massage, medical, parlor, "
+"physiotherapy, wellness, yoga, health blog and various types of business "
+"websites. Spa and Salon comes with several features to make a user-friendly, "
+"interactive and visually stunning website. Such features include custom menu,"
+" attractive Banner with a Call to Action button, service section, "
+"testimonial section, about section, Header Phone number display, breadcrumbs,"
+" and social media integration. It has three footer area and a right sidebar "
+"and includes four custom widgets for the recent posts, popular posts, social "
+"media and the featured post. The theme is built on Customizer and it allows "
+"you to easily customize your website with live previews. The theme is "
+"rigorously tested and optimized for speed and faster page load time and has "
+"a secure and clean code. The theme is also translation ready. Designed with "
+"visitor engagement in mind, Spa and Salon helps you to easily and "
+"intuitively create professional and appealing websites. Check demo at https:"
+"//raratheme.com/preview/spa-and-salon/ and documentation at https:"
+"//raratheme.com/documentation/spa-and-salon. Read theme details at https:"
+"//raratheme.com/wordpress-themes/spa-and-salon and get free support at https:"
+"//raratheme.com/support-ticket."
+msgstr ""
+
+msgid "Rara Theme"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://raratheme.com/"
+msgstr ""

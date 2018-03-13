@@ -1,0 +1,166 @@
+/*
+Theme Name: Benevolent Pro
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.header-t .social-networks,
+.header-t .social-networks li,
+.promotional-block .col{
+	float: right;
+}
+
+.header-t .social-networks li{
+	margin-right: 0;
+	margin-left: 16px;
+}
+
+.header-t .tel-link{
+	float: left;
+}
+
+.promotional-block .col .img-holder .icon-holder{
+	left: auto;
+	right: 19px;
+}
+
+.welcome-note .col.left-col,
+.welcome-note .col,
+.services .col,
+.testimonial #slider .holder .img-holder,
+.testimonial #slider .holder .text-holder,
+.site-footer .col{
+	float: right;
+}
+
+.testimonial #slider .holder .text-holder{
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+.welcome-note .col.left-col{
+	padding-left: 43px;
+	padding-right: 10px;
+}
+
+.testimonial #slider .flex-direction-nav{
+	left: auto;
+	right:40.5%; 
+}
+.widget.widget_spa_and_salon_social_links ul li{
+	float: right;
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+.widget.widget_spa_and_salon_social_links ul li:first-child{
+	margin-right:0; 
+}
+
+.widget.widget_spa_and_salon_recent_post .post-thumbnail, .widget.widget_spa_and_salon_popular_post .post-thumbnail{
+	margin-right: 0;
+	margin-left: 20px;
+	float: right;
+}
+
+.post .entry-meta span a::before{
+	margin-right: 0;
+	margin-left:8px; 
+}
+
+.post .entry-meta span{
+	margin-right: 0;
+	margin-left: 23px;
+}
+
+.post .entry-meta span a{
+	display: inline-block;
+}
+
+#crumbs span, #crumbs a{
+	display: inline-block;
+}
+
+.post .entry-meta span .author.vcard{
+	margin-left: 0;
+}
+
+.comment-author img{
+	float: right;
+	margin-left: 25px;
+	margin-right: 0;
+}
+
+.comment-metadata a{
+	display: inline-block;
+}
+
+.widget.widget_spa_and_salon_social_links ul li:first-child{
+	margin-right: 0 !important;
+}
+
+.wpcf7{
+	direction: rtl;
+}
+
+.search .search-form label{
+	float: right;
+}
+
+.search .search-form input[type="search"]{
+	box-sizing: border-box;
+}
+
+.widget.widget_search .search-form input[type="submit"]{
+	float: right;
+}
+
+.widget.widget_search .search-form label{
+	float: left;
+}
+
+.search .search-form input[type="submit"]{
+	float: right;
+	margin-left: 0;
+	margin-right:12px;
+}
+
+.main-navigation ul ul{
+	left: auto;
+	right: 0;
+	text-align: right;
+}
+
+.main-navigation ul ul ul{
+	left: auto;
+	right: 100%;
+}
+
+.site-footer .site-info .copyright{
+	float: right;
+}
+
+.site-footer .site-info .by{
+	float:left;
+	text-align: left;
+}
+
+.testimonial #carousel .slides > li{
+	float: right !important;;
+	margin-right: 0 !important;
+	margin-left: 40px !important;
+}
+
+.testimonial #carousel{
+	float: left;
+}
