@@ -11,6 +11,66 @@
  Text Domain:  spa-and-salon-child
  Tags: two-columns, right-sidebar, custom-background, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, theme-options, footer-widgets, blog, full-width-template, custom-logo, custom-colors, e-commerce
 */
-ul .hours {
-  
+
+/* DISABLE UNNECESSARY ITEM */
+.entry-meta,
+#comments,
+#main > nav > div > div.nav-previous,
+#main > nav > div > div.nav-next,
+#page > footer > div.site-info > div > span.by {
+  display: none;
+}
+
+#banner > div.banner-text > div > div > a {
+  background-color: red;
+}
+
+/* CONTACT BUTTON */
+#wpcf7-f5-p121-o1 > form > p:nth-child(7) > input {
+  background-color: red; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+/* SERVICES */
+
+#about {
+  padding-bottom: 40px;
+}
+
+#service {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#service > div > header > h2 {
+  font-size: 3em;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* TESTIMONIALS */
+
+#testimonial {
+  padding-top: 40px;
+}
+
+#testimonial > div > header > h2 {
+  font-size: 3em;
+}
+/* FOOTER */
+
+#content {
+  padding-bottom: 2px;
+}
+
+#page > footer > div.site-info > div > span.copyright {
+  text-align: center;
+  margin-left: 25%;
 }
