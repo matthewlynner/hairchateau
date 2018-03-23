@@ -17,7 +17,8 @@
 #comments,
 #main > nav > div > div.nav-previous,
 #main > nav > div > div.nav-next,
-#page > footer > div.site-info > div > span.by {
+#page > footer > div.site-info > div > span.by,
+#booking_form_div1 > div.wpbc_booking_form_structure.wpbc_vertical > div.wpbc_structure_calendar > div:nth-child(2) {
   display: none;
 }
 

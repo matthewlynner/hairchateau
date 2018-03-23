@@ -3,7 +3,7 @@ Contributors: Wpchef
 Tags: booking, reservations, barber shop, hair salon, beauty center, spas, scheduling, appointment, availability calendar, booking calendar, online reservation, schedule, Paypal appointment, appointment calendar, booking software, reservation plugin, booking engine, booking plugin
 Requires at least: 4.1
 Tested up to: 4.9.1
-Stable tag: 3.19.1
+Stable tag: 3.20
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,12 +12,6 @@ A complete and easy to manage appointments booking system for busy Salons.
 
 
 == Description ==
-
-++++++++++++++++++++++++++++++++++++
-
-[A LETTER FROM SALON BOOKING FOUNDERS](https://www.salonbookingsystem.com/campaigns/ambitious-need-support/)
-
-++++++++++++++++++++++++++++++++++++
 
 Salon Booking is a complete and easy to manage appointments booking system to help your business getting more reservations on your website and saving a lot of time with your agenda management tasks.
 
@@ -32,7 +26,7 @@ Salon booking  is the best solution for:
 * **TUTORS**
 
 
-It's the perfect solution to all that kind of business where the ONE TO ONE appointment booking is crucial.
+It’s the perfect solution to all that kind of business where the ONE TO ONE appointment booking is crucial.
 
 Salon booking is provided with a intuitive back-end bookings calendar where administrator have a quick overview of all the upcoming reservations.
 
@@ -126,8 +120,8 @@ https://www.youtube.com/watch?v=2fb9JzouBsk&feature=youtu.be
 * Multiple holidays rules
 * Limit reservations to specific services
 * Google Calendar synchronisation 
-* SMS notification when heâ€™s booked
-* Email notification when heâ€™s booked
+* SMS notification when he’s booked
+* Email notification when he’s booked
 
 
 **Services settings**
@@ -229,14 +223,7 @@ NOTE: Put your own translation files inside wp-content/languages/plugins
 
 Languages available:
 
-*Russian
-*Turkish
-*French
-*Italian
-*Spanish
-*Danish
-*German
-*Swedish
+https://www.transifex.com/projects/p/salon-booking-system/
 
 If you want to contribuite to plugin translation please visit:
 
@@ -245,7 +232,7 @@ https://www.transifex.com/projects/p/salon-booking-system/
  
 = Are there any conflicts with other plugins? =
 
-At the moment we didnâ€™t spot any conflicts with other plugins.
+At the moment we didn’t spot any conflicts with other plugins.
 
  
 = Is it possible to customise the look and feel of the plugin front-end? =
@@ -286,6 +273,18 @@ http://salon.wordpresschef.it
 
 
 == Changelog ==
+
+16.03.2018
+
+* Now you can add holidays rules from back-end calendar daily view
+* Added a new option to setup your favourite back-end calendar view
+* Improved back-end settings UI
+* Fixed bug with Estonian and Catalan language on date picker
+* Fixed problem with long texts on booking form buttons
+* Fixed bug with booking cancellation time
+* Fixed bug on "save" booking from back-end
+
+
 
 30.01.2018
 
@@ -572,7 +571,7 @@ http://salon.wordpresschef.it
 03.06.2015
 
 * Bug fixed on date and time picker for French language
-* Bug fixed on add booking from back-end when â€œAssistant selectionâ€ option is not active
+* Bug fixed on add booking from back-end when “Assistant selection” option is not active
 * Improvement: date and time picker icons now clickable
 * Improvement: added the booking review inside the back-end calendar tool-tip
 * Fixed bug on reservation position on calendar daily view
@@ -648,7 +647,7 @@ http://salon.wordpresschef.it
 
 * Fixed bug on booking algorithm 
 * Fixed minor Php Warnings and Notices
-* Changed the order of Salon booking back-end menÃ¹
+* Changed the order of Salon booking back-end menù
 * Layout improvements to the back-end Calendar
 
 12.01.2016
@@ -749,7 +748,7 @@ Date-picker multi-languages support fix
 
 1.0.1 13/05/2015
 
-* Added â€œAssistant selection" option
+* Added “Assistant selection" option
 * Added "SMS Verification" option
 * Add "Salon staff" new users role
 * Fixed booking system bug
@@ -769,9 +768,9 @@ We highly suggest you to: <br /><br />
 
 The 2.4 version has changed the front-end booking form layout and some CSS classes has been changed too. Be prepared to update your CSS customisations once the update of Salon Booking has been completed.<br /><br />
 
-The 2.4 version has a new algorithm, more precise, and require a â€œDatabase updaterâ€ to be launched once the new version has been installed.<br /><br />
+The 2.4 version has a new algorithm, more precise, and require a “Database updater” to be launched once the new version has been installed.<br /><br />
 
-In case of doubts you could install this new version on a development website first and check whatâ€™s new.<br />
+In case of doubts you could install this new version on a development website first and check what’s new.<br />
 If you feel confident with the new version you can proceed with the plugin update on your production website.<br /><br />
 
 You could also contact us on support@wpchef.it
