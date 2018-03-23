@@ -13,6 +13,12 @@
 */
 
 /* DISABLE UNNECESSARY ITEM */
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
 .entry-meta,
 #comments,
 #main > nav > div > div.nav-previous,
@@ -37,6 +43,12 @@
       display: inline-block;
       font-size: 16px;
     }
+
+/****PROMOTIONAL BLOCK*******/
+.section > #featured > .promotional-block {
+  background-color: #795548;
+}
+
 
 /* SERVICES */
 
