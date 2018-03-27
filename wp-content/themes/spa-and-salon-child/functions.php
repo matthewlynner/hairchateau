@@ -12,10 +12,3 @@ function enqueue_parent_styles() {
 	wp_enqueue_style( 'spa-and-salon-style', get_stylesheet_uri(), array(), SPA_AND_SALON_THEME_VERSION );
 
 }
-
-function wpb_add_google_fonts() {
-
-wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Raleway:400,700', false );
-}
-
-add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );

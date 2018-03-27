@@ -13,12 +13,6 @@
 */
 
 /* DISABLE UNNECESSARY ITEM */
-
-body {
-  font-family: 'Raleway', sans-serif;
-}
-
-
 .entry-meta,
 #comments,
 #main > nav > div > div.nav-previous,
@@ -28,13 +22,36 @@ body {
   display: none;
 }
 
-#banner > div.banner-text > div > div > a {
-  background-color: red;
+
+/* HOME PAGE BUTTONS*/
+
+#banner > div.banner-text > div > div > a,
+#about > div > div > div:nth-child(2) > a {
+  background-color: #ef255b;
+}
+
+
+/* HOVER STYLE*/
+
+
+.main-navigation ul li a:hover, .main-navigation ul li a:focus,
+.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, 
+.main-navigation .current_page_ancestor > a, .main-navigation .current-menu-ancestor > a,
+.fa-instagram:before,
+.fa-facebook:before,
+.header-t .tel-link,
+.main-navigation ul li a:hover, .main-navigation ul li a:focus,
+.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a, .main-navigation .current-menu-ancestor > a,
+.main-navigation ul li a:hover, .main-navigation ul li a:focus,
+.fa-instagram:before, .fa-facebook:before, .header-t .tel-link, .services .col h3 a:hover,
+a:visited {
+  color: #ef255b;
 }
 
 /* CONTACT BUTTON */
 #wpcf7-f5-p121-o1 > form > p:nth-child(7) > input {
-  background-color: red; /* Green */
+  background-color: #ef255b; 
       border: none;
       color: white;
       padding: 15px 32px;
@@ -43,12 +60,6 @@ body {
       display: inline-block;
       font-size: 16px;
     }
-
-/****PROMOTIONAL BLOCK*******/
-.section > #featured > .promotional-block {
-  background-color: #795548;
-}
-
 
 /* SERVICES */
 
@@ -78,6 +89,10 @@ body {
   font-size: 3em;
 }
 /* FOOTER */
+
+.site-footer {
+  background: #1a1620;
+}
 
 #content {
   padding-bottom: 2px;
