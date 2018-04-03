@@ -12,7 +12,8 @@
  Tags: two-columns, right-sidebar, custom-background, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, theme-options, footer-widgets, blog, full-width-template, custom-logo, custom-colors, e-commerce
 */
 
-/* DISABLE UNNECESSARY ITEM */
+
+/* DISABLE UNNECESSARY ITEMS */
 .entry-meta,
 #comments,
 #main > nav > div > div.nav-previous,
@@ -30,28 +31,74 @@
   background-color: #ef255b;
 }
 
+.booking-header {
+  padding-bottom: 25px;
+  font-family: 'PT Serif', serif;
+}
 
-/* HOVER STYLE*/
 
 
-.main-navigation ul li a:hover, .main-navigation ul li a:focus,
-.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, 
-.main-navigation .current_page_ancestor > a, .main-navigation .current-menu-ancestor > a,
-.fa-instagram:before,
-.fa-facebook:before,
-.header-t .tel-link,
-.main-navigation ul li a:hover, .main-navigation ul li a:focus,
-.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a,
-.main-navigation .current_page_ancestor > a, .main-navigation .current-menu-ancestor > a,
-.main-navigation ul li a:hover, .main-navigation ul li a:focus,
-.fa-instagram:before, .fa-facebook:before, .header-t .tel-link, .services .col h3 a:hover,
-a:visited {
+/*NAVIGATION SECTION*/
+
+.main-navigation ul li a:hover,
+.main-navigation ul li a:focus,
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation ul li a:hover,
+.main-navigation ul li a:focus,
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation ul li a:hover,
+.main-navigation ul li a:focus, {
   color: #ef255b;
 }
 
+
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: ##ef255b;
+}
+
+a:visited {
+	color: ##ef255b;
+}
+
+a:hover,
+a:focus {
+	color: ##ef255b;
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: none;
+}
+
+a:hover,
+a:active {
+	outline: none;
+}
+
+
+
+/*SOCIAL MEDIA ICONS*/
+.fa-instagram:before,
+.fa-facebook:before, {
+  color: #ef255b;
+}
+
+
+
+
 /* CONTACT BUTTON */
 #wpcf7-f5-p121-o1 > form > p:nth-child(7) > input {
-  background-color: #ef255b; 
+  background-color: #ef255b;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -79,6 +126,19 @@ a:visited {
   padding-bottom: 30px;
 }
 
+header-t .tel-link,
+.services .col h3 a:hover,
+a:visited {
+  color: #ef255b;
+}
+
+
+
+.site-footer .widget .widget-title {
+  color: red;
+}
+
+
 /* TESTIMONIALS */
 
 #testimonial {
@@ -98,7 +158,6 @@ a:visited {
   padding-bottom: 2px;
 }
 
-#page > footer > div.site-info > div > span.copyright {
+.site-footer .site-info .by {
   text-align: center;
-  margin-left: 25%;
 }
