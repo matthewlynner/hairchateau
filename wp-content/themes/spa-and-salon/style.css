@@ -1194,7 +1194,7 @@ object {
 	font: 30px/39px 'Marcellus', serif;
 	color: #72466a;
 	padding-right: 43px;
-	margin-top: 10px; 
+	margin-top: 10px;
 }
 
 .welcome-note p{margin: 0 0 19px;}
@@ -1806,7 +1806,7 @@ object {
 	border-bottom: 1px solid #e8e8e8;
     margin: 0 0 40px;
     padding: 0 0 40px;
-} 
+}
 
 .search .search-form{
 	overflow: hidden;
@@ -2334,7 +2334,6 @@ object {
 		padding-bottom: 10px;
 	}
 	.banner-section .banner-text{
-		position: relative;
 		top: 0;
 		padding: 15px 0;
 	}

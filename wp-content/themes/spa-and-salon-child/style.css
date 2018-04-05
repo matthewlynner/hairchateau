@@ -36,25 +36,71 @@
   font-family: 'PT Serif', serif;
 }
 
+a {
+	color: #ef255b;
+}
 
+a:visited {
+	color: #ef255b;
+}
 
+a:hover,
+a:focus {
+	color: #ef255b;
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: none;
+}
+
+a:hover,
+a:active {
+	outline: none;
+}
+
+.banner-section .banner-text{
+  top: 0;
+  padding: 15px 0;
+}
+
+#banner > div.banner-text > div {
+  padding-top: 10%;
+}
 /*NAVIGATION SECTION*/
+/*LINKS*/
+
+a {
+	color: #ef255b;
+}
+
+a:visited {
+	color: #ef255b;
+}
+
+a:hover,
+a:focus {
+	color: #ef255b;
+	text-decoration: underline;
+}
 
 .main-navigation ul li a:hover,
-.main-navigation ul li a:focus,
+.main-navigation ul li a:focus{
+	text-decoration: none;
+	color: #ef255b;
+}
+
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+	color: #ef255b;
+}
+
+
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a,
-.main-navigation .current-menu-ancestor > a,
-.main-navigation ul li a:hover,
-.main-navigation ul li a:focus,
-.main-navigation .current_page_item > a,
-.main-navigation .current-menu-item > a,
-.main-navigation .current_page_ancestor > a,
-.main-navigation .current-menu-ancestor > a,
-.main-navigation ul li a:hover,
-.main-navigation ul li a:focus, {
-  color: #ef255b;
+.main-navigation .current-menu-ancestor > a {
+	color: #ef255b;
 }
 
 
@@ -106,6 +152,7 @@ a:active {
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
+      box-shadow: none;
     }
 
 /* SERVICES */
@@ -135,9 +182,15 @@ a:visited {
 
 
 .site-footer .widget .widget-title {
-  color: red;
+  color: #999;
 }
 
+
+.post .entry-header .entry-title {
+	font: 30px/36px 'Marcellus', serif;
+	color: #666;
+	margin: 0 0 10px;
+}
 
 /* TESTIMONIALS */
 
