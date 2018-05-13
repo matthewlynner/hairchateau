@@ -19,12 +19,17 @@
 #main > nav > div > div.nav-previous,
 #main > nav > div > div.nav-next,
 #page > footer > div.site-info > div > span.by,
-#booking_form_div1 > div.wpbc_booking_form_structure.wpbc_vertical > div.wpbc_structure_calendar > div:nth-child(2) {
+#booking_form_div1 > div.wpbc_booking_form_structure.wpbc_vertical > div.wpbc_structure_calendar > div:nth-child(2),
+#banner > div.banner-text > div > div > a, #about > div > div > div:nth-child(2) > a {
   display: none;
 }
 
 
 /* HOME PAGE BUTTONS*/
+
+.banner-section .banner-text .text .title {
+  font-size: 34px;
+}
 
 #banner > div.banner-text > div > div > a,
 #about > div > div > div:nth-child(2) > a {
@@ -109,16 +114,16 @@ a:focus {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: ##ef255b;
+	color: #ef255b;
 }
 
 a:visited {
-	color: ##ef255b;
+	color: #ef255b;
 }
 
 a:hover,
 a:focus {
-	color: ##ef255b;
+	color: #ef255b;
 	text-decoration: underline;
 }
 
@@ -134,11 +139,18 @@ a:active {
 
 
 /*SOCIAL MEDIA ICONS*/
-.fa-instagram:before,
 .fa-facebook:before, {
   color: #ef255b;
 }
 
+.header-t .social-networks {
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+  float: left;
+  width: 20%;
+  font-size: 1.5em;
+}
 
 
 
@@ -201,6 +213,11 @@ a:visited {
 #testimonial > div > header > h2 {
   font-size: 3em;
 }
+
+.social-block {
+  background: #ef255b;
+}
+
 /* FOOTER */
 
 .site-footer {
