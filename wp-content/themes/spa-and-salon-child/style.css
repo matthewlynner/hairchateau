@@ -76,6 +76,10 @@ a:active {
 /*NAVIGATION SECTION*/
 /*LINKS*/
 
+.welcome-note p {
+  line-height: 3em;
+}
+
 a {
 	color: #ef255b;
 }
